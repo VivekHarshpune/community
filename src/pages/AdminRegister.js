@@ -1,7 +1,7 @@
 // src/components/AdminRegister.js
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import axiosInstance from '/Users/vivekharsh/Downloads/CAPESTONE PROJECT/capestonebook/admin-interface/src/pages/axiosConfig.js'; // Import the Axios instance
+import axiosInstance from '../axiosConfig';
 
 const AdminRegister = () => {
   const [email, setEmail] = useState('');

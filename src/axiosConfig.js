@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: process.env.REACT_APP_API_URL, // This uses the base URL from the .env file
+  baseURL: process.env.REACT_APP_API_URL, // Uses the base URL from the .env file
   headers: {
     'Content-Type': 'application/json', // Ensures the request body is in JSON format
   },
